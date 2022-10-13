@@ -12,6 +12,7 @@ from apps.user.serializers import UserSerializer, SetPasswordSerializer
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 
+#Copié el view de Users para trabajar con el y hacer el view de los mantenimientos pero se terminó el tiempo y no pude hacer el view
 
 class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
